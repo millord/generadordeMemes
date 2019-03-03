@@ -49,14 +49,14 @@ class MemeGenerator extends Component {
           <input
             type="text"
             name="topText"
-            placeholder="Top Text"
+            placeholder="Texto de Arriba"
             value={this.state.topText}
             onChange={this.handleChange}
           />
           <input
             type="text"
             name="bottomText"
-            placeholder="Bottom Text"
+            placeholder="Texto de abajo"
             value={this.state.bottomText}
             onChange={this.handleChange}
           />
